@@ -1,0 +1,243 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("src/assets/fonts/Inter/Inter-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("src/assets/fonts/Inter/Inter-Medium.ttf") format("woff");
+}
+@font-face {
+  font-family: "Roboto-Slab";
+  src: url("src/assets/fonts/RobotoSlab/RobotoSlab-Bold.ttf") format("woff");
+}
+@font-face {
+  font-family: "Roboto-Slab-Regular";
+  src: url("src/assets/fonts/RobotoSlab/RobotoSlab-Regular.ttf") format("woff");
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("src/assets/images/logo/new_bg1.png");
+  background-color: #818181;
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.rectangle {
+  width: 100%; /* ширина прямокутника */
+  height: 50px; /* висота прямокутника */
+  background-color: #F3F3F3; /* колір фону прямокутника (можна використовувати будь-який колір або HEX-код) */
+}
+
+.fonts {
+  white-space: nowrap;
+  font-family: Inter-Regular sans-serif;
+  font-size: 16px;
+  color: #818181;
+}
+
+.fonts1 {
+  white-space: nowrap;
+  font-family: Inter-Regular sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.btn {
+  width: 90px; /* Ширина кнопки */
+  height: 30px; /* Висота кнопки */
+  background-color: #ffffff; /* Колір фону кнопки */
+  border: 1px solid #cccccc; /* Товщина та колір межі кнопки */
+  border-radius: 4px; /* Радіус скруглення кутів */
+  text-align: left; /* Вирівнювання тексту по центру */
+  line-height: 20px; /* Вирівнювання тексту вертикально по центру */
+  cursor: pointer; /* Змінює вигляд курсору при наведенні */
+}
+
+.rectangle1 {
+  position: absolute;
+  width: 200px;
+  height: 51px;
+  background-color: #52CC7A;
+  line-height: 50px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden; /* Заборона виходу тексту за межі елементу */
+}
+
+.rectangle2 {
+  background-color: white;
+  width: 100%;
+  height: 150px;
+}
+
+.individ-fonts {
+  color: #52CC7A;
+}
+
+.search-button {
+  width: 450px; /* Ширина кнопки */
+  height: 40px; /* Висота кнопки */
+  text-align: left;
+  background-color: #ffffff; /* Колір фону кнопки */
+  border: 2px solid #cccccc; /* Товщина та колір межі кнопки */
+  border-radius: 4px; /* Радіус скруглення кутів */
+}
+
+.search-button-red {
+  width: 120px; /* Ширина кнопки */
+  height: 40px; /* Висота кнопки */
+  background-color: #f50243; /* Колір фону кнопки */
+  border: 2px solid #f50243; /* Товщина та колір межі кнопки */
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+
+.fonts-red {
+  white-space: nowrap;
+  font-family: Inter-Regular sans-serif;
+  font-size: 14px;
+  color: #f5184f;
+}
+
+.fonts-black {
+  white-space: nowrap;
+  font-family: Inter-Medium sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.line {
+  position: revert;
+  width: 150px;
+  height: 80px;
+  background-color: #3498db;
+}
+
+.rectangle3 {
+  background-color: #52CC7A;
+  width: 100%;
+  height: 65px;
+}
+
+.fonts3 {
+  white-space: nowrap;
+  font-family: Inter-Regular sans-serif;
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.rectangle4 {
+  width: 1420px;
+  height: 500px;
+  background-color: #ffffff;
+}
+
+.main-boldtext {
+  font-family: Roboto-Slab, sans-serif;
+  font-size: 21px;
+}
+
+.main-boldtext-small {
+  font-family: Roboto-Slab-Regular, sans-serif;
+  color: #818181;
+  font-size: 17px;
+}
+
+.font2 {
+  padding-top: 3px;
+  padding-left: 20px;
+  font-family: Roboto-Slab-Regular, sans-serif;
+  color: #818181;
+  font-size: 17px;
+}
+
+.btn2 {
+  width: 450px; /* Ширина кнопки */
+  height: 30px; /* Висота кнопки */
+  background-color: #e0e0e0; /* Колір фону кнопки */
+  border: 2px solid #cccccc; /* Товщина та колір межі кнопки */
+  border-radius: 4px; /* Радіус скруглення кутів */
+  text-align: left; /* Вирівнювання тексту по центру */
+  line-height: 20px; /* Вирівнювання тексту вертикально по центру */
+  cursor: pointer; /* Змінює вигляд курсору при наведенні */
+}
+
+.rectangle-moment {
+  width: 100%; /* ширина прямокутника */
+  height: 50px; /* висота прямокутника */
+  background-color: #818181; /* колір фону прямокутника (можна використовувати будь-який колір або HEX-код) */
+  position: unset;
+  margin-top: 500px;
+}
+
+.text-buket {
+  width: 1300px;
+  word-wrap: break-word;
+  white-space: normal;
+  position: absolute;
+  top: 880px;
+}
+
+.rectangle-moment1 {
+  width: 100%; /* ширина прямокутника */
+  height: 50px; /* висота прямокутника */
+  background-color: #818181; /* колір фону прямокутника (можна використовувати будь-який колір або HEX-код) */
+  position: unset;
+}
+
+.btn3 {
+  border-color: #52CC7A;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.rectangle5 {
+  left: 250px;
+  position: absolute;
+  width: 1020px;
+  height: 500px;
+  background-color: #ffffff;
+}
+
+/* styles.css */
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
